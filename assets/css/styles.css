@@ -1,3 +1,5 @@
+/* Google fonts import */
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Oswald:wght@200..700&display=swap");
 /* Asterisk wildcard selector to override default styles added by the browser */
 * {
     padding: 0;
@@ -17,6 +19,7 @@ body {
     /* Generic project styles */
     color: #3a3a3a;
     /* border: 10px solid red; */
+    font-family: "Lato", sans-serif;
 }
 /* Header */
 header {
@@ -32,14 +35,28 @@ main {
     the size along the main axis (width for row, height for column). 
     auto: The length is equal to the length of the flexible item*/
     /* flex-grow and flex-shrink are both set on main, but they will never be active 
-    at the same time, as flex-grow affects the element only if there is space left over 
     in the parent, while flex-shrink affects the element only if there is not enough space in the parent. */
 
     /* Main element to take up any surplus space to push footer down. It should not shrink when the 
+    at the same time, as flex-grow affects the element only if there is space left over 
     screen is too small to show all the content. */
     flex: 1 0 auto;
     /* flex-grow: 1; */
 }
+
+/* h1 {
+    font-family: 'Oswald', serif;
+    font-optical-sizing: auto;
+    font-weight: 100
+    font-style: normal
+}
+h2 {
+    
+        font-family: 'Lato', sans-serif;
+        font-weight: 100;
+        font-style: normal;
+      
+} */
 /* Footer */
 footer {
     background-color: orange;
