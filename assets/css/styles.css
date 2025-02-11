@@ -115,6 +115,7 @@ main {
     screen is too small to show all the content. */
     flex: 1 0 auto;
     /* flex-grow: 1; */
+    margin-top: 47px;
 }
 
 /* 
