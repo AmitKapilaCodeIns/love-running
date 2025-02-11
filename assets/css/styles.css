@@ -23,7 +23,27 @@ body {
 }
 /* Header */
 header {
-    background-color: lightcoral;
+    background-color: #ffffff;
+    padding: 0 1rem;
+    /* An element with position: fixed; is positioned relative 
+    to the viewport, which means it always stays in the same place even if the page is scrolled.
+    However we need width: 100% else the header will not fill out the rest of the width of the container */
+    position: fixed;
+    width: 100%;
+    /* The purpose of the z-index property is to control the vertical stacking of overlapping elements. 
+    A higher z-index value appears to be physically closer to you. Its name comes from the cartesian 
+    coordinate system where the x-axis is horizontal, the y-axis is vertical and the z-axis is perpendicular 
+    to the screen pointing straight at you.
+    High z-index value of 99 so that it is layered on top of other elements that might have a z-index later on */
+    z-index: 99;
+    /* This shadow depth effect makes it look layered on top of the other content. A better user
+    visual experience. The first value is the horizontal offset (negative offsets to 
+    the left, positive to the right). Not needed as the header is full width. 
+    The second value is the vertical offset (positive is down, negative is up).
+    The third value is the blur radius (how hard or soft the shadow is). 
+    The fourth value is the spread radius.
+     */
+    box-shadow: 0 2px 2px #3a3a3a;
 }
 h1 {
     font-family: "Oswald", sans-serif;
