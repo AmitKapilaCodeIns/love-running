@@ -115,6 +115,8 @@ main {
     screen is too small to show all the content. */
     flex: 1 0 auto;
     /* flex-grow: 1; */
+    /* In DEVtools if you select the header it tells you the header is 47px high. So, in
+    order to see main you need to set the margin area on the top of main to 47px farther from its neighbor*/
     margin-top: 47px;
 }
 
@@ -129,4 +131,37 @@ h2 {
 /* Footer */
 footer {
     background-color: orange;
+}
+
+/* Media query: tablets and larger (768px and up) */
+@media screen and (min-width: 768px) {
+    /* Header */
+    nav {
+        /* We'll want to make sure that the navbar is always displayed so we can see all the page links. */
+        display: block;
+        position: relative; /* appears adjacent rather than below Love Running */
+        box-shadow: none; /*hide the shadow as not needed */
+        width: fit-content; /* make the navbar as wide as the content */
+        padding-right: 1rem; /* add padding to the right to make it look better */
+    }
+    #menu {
+        display: flex;
+    }
+
+    #menu li {
+        margin-left: 1rem;
+    }
+   .nav-toggle-label { /* no longer need to toggle the X*/
+        display: none;
+    }
+  /*   #logo {
+        font-size: 280%;
+        line-height: 75px;
+        margin: 0 0.5rem;
+    }
+    /* Main content */
+    main {
+        /* Push main content down to accomodate larger header */
+        margin-top: 78.59px;
+    } */
 }
