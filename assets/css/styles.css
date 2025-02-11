@@ -151,10 +151,11 @@ footer {
     #menu li {
         margin-left: 1rem;
     }
-   .nav-toggle-label { /* no longer need to toggle the X*/
+    .nav-toggle-label {
+        /* no longer need to toggle the X*/
         display: none;
     }
-  /*   #logo {
+    #logo {
         font-size: 280%;
         line-height: 75px;
         margin: 0 0.5rem;
@@ -163,5 +164,5 @@ footer {
     main {
         /* Push main content down to accomodate larger header */
         margin-top: 78.59px;
-    } */
+    }
 }
