@@ -100,7 +100,6 @@ h1 {
 }
 /* Main content */
 main {
-    background-color: lightblue;
     /* flex-grow 1, flex-shrink 0, flex-basis auto */
     /* flex-grow: 1; the main grows to fill the leftover space in the parent body. */
     /* flex-shrink: 0; is active, the main item returns to its default width set by flex-basis.  */
@@ -120,14 +119,12 @@ main {
     margin-top: 47px;
 }
 
-/* 
-h2 {
-    
-        font-family: 'Lato', sans-serif;
-        font-weight: 100;
-        font-style: normal;
-      
-} */
+/* Hero section*/
+#hero {
+    height: 600px;
+    width: 100%;
+    background-color: lightgreen;
+}
 /* Footer */
 
 #social-networks {
