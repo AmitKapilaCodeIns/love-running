@@ -145,7 +145,7 @@ footer {
         padding-right: 1rem; /* add padding to the right to make it look better */
     }
     #menu {
-        display: flex;
+        display: flex; /* make the menu items appear in a row */
     }
 
     #menu li {
