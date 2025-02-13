@@ -145,7 +145,7 @@ main {
 #cover-text > h3 {
     color: #ffffff;
 }
-
+/* Reasons section */
 #reasons {
     margin: 20px auto;
     width: 90%;
@@ -168,6 +168,24 @@ main {
 #benefits hr {
     border-top: 1px solid #3a3a3a;
     margin: 5px 0;
+}
+
+#circle-cover-bg {
+    height: 90vw;
+    width: 90vw;
+    background: url("../images/reasons-image.webp") no-repeat top center/cover;
+    margin-bottom: 20px;
+    /* Makes the square image into a circle */
+    border-radius: 50%;
+    /* Make sure the image will never be more than 300 */
+    max-width: 300px;
+    max-height: 300px;
+}
+
+#benefits-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 /* Footer */
