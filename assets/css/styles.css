@@ -274,22 +274,22 @@ main {
     }
 
     #benefits > div {
-        flex: 1;
+        flex: 1; /* each div will take up the same amount of space */
     }
 
     #benefits-image {
-        order: 0;
+        order: 0; /* the image will appear first */
     }
 
     #benefits-mental {
-        order: 1;
+        order: 1; /* the mental benefits will appear second */
     }
 
     #benefits-mental > div {
-        align-self: flex-start;
+        align-self: flex-start; /* align the text to the top */
     }
 
     #benefits-physical > div {
-        align-self: flex-end;
+        align-self: flex-end; /* align the text to the bottom */
     }
 }
