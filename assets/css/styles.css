@@ -227,6 +227,12 @@ So, to fix that, we'll set the line-height on the photos div to 0. */
     line-height: 0;
 }
 
+/* Sign up page */
+.radio-buttons {
+    display: flex;
+    flex-direction: column;
+}
+
 /* Footer */
 
 #social-networks {
